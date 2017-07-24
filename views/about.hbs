@@ -3,10 +3,59 @@
   <head>
     <meta charset="utf-8">
     <title>Some Website</title>
+    {{> imports}}
   </head>
   <body>
     {{> header}}
     <p>{{welcomeMessage}}</p>
+
+    <div id="aboutme">
+      <h2 class="text-center about">About Me</h2>
+      <div class="about-edu text-center">
+        <h1 class= "text-center" id="edu"><b>Education</b></h1>
+        <h1>University of California Santa Cruz</h1>
+        <h1>GPA: 3.90</h1>
+        <h1>Relevant Coursework:</h1>
+        <div class="course">
+          <h3>CS102 Analysis of Algorithms</h3>
+          <h3>CS101 Abstract Data Types and Algorithms</h3>
+          <h3>CS115 Introduction to Software Design</h3>
+          <h3>CS130 Computational Theory</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-skills" id ="skills">
+    <h1 class= "text-center" id="edu"><b>Skills</b></h1>
+    <div class="container-fluid text-center">
+        <div class="row">
+           <div class="col-sm-6">
+             Programming Languages
+           </div>
+           <div class="col-sm-6">Tools/Software</div>
+        </div>
+           <div class="row">
+             <div class="col-sm-6">
+               <ul>
+                 <li>Java</li>
+                 <li>C</li>
+                 <li>Swift</li>
+                 <li>HTML/CSS</li>
+                 <li>JavaScript</li>
+               </ul>
+             </div>
+              <div class="col-sm-6 text-center">
+               <ul>
+                 <li>Xcode</li>
+                 <li>Eclipse</li>
+                 <li>Photoshop</li>
+
+               </ul>
+             </div>
+           </div>
+    </div>
+  </div>
+
 
     {{> footer}}
   </body>
