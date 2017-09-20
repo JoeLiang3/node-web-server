@@ -1,8 +1,8 @@
 
 
 /************MAIN PAGE************************************************************/
-img{
-  height:100%;
+.picture > img{
+  height:600px;
   width:100%;
   margin-top:-20px;
 }
@@ -39,17 +39,11 @@ button {
 
 .description {
   font-size:20px;
-  margin-left: 5%;
-  margin-right: 5%;
   margin-top: 5%;
   margin-bottom: 10%;
 }
 
-#hobbie_descript{
-  font-size:15px;
-  margin-left: 10%;
-  margin-right: 10%;
-}
+
 
 #selfie {
   margin-top: 10px;
