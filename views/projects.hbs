@@ -4,50 +4,103 @@
     <meta charset="utf-8">
     <title>Home</title>
     {{> imports}}
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans" rel="stylesheet">
   </head>
-  <body>
+
+  <body class="text-center">
     {{> header}}
     <div id="title">Projects</div>
-    <div class="container text-center">
 
-      <div class="row">
-
-        <div class="projects col-md-6">
-          <h4>Todo API</h4>
+    <div class="projects">
+      <img src="https://image.ibb.co/dBHTm5/Screen_Shot_2017_09_19_at_7_43_09_PM.png"
+      alt="Screen Shot 2017 09 19 at 7 43 09 PM" border="0" />
+      <div id="overlay" class="text-center">
+        <div class="project-name">ChatRoom</div>
+        <div class="project-description">
+          <h3>
+            Frameworks and libraries used
+          </h3>
+          <p>
+            NodeJS, Express, SocketIO, Moment, Mocha, Expect
+          </p>
         </div>
-
-        <div class="projects col-md-6">
-          <div class="project-description">
-            <h4>Chat Room</h4>
-            <p>Frameworks and Libraries used:</p>
-
-            <div class="row">
-              <div class="col-md-4 techs"><a href="#">NodeJS</a></div>
-              <div class="col-md-4 techs"><a href="#">SocketIO</a></div>
-              <div class="col-md-4 techs"><a href="#">Express</a></div>
-            </div>
-
-            <div class="row">
-              <div class="col-md-4 techs"><a href="#">MomentJS</a></div>
-              <div class="col-md-4 techs"><a href="#">MochaJS</a></div>
-              <div class="col-md-4 techs"><a href="#">Expect</a></div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="projects col-md-6">PlaceHOlderText</div>
-        <div class="projects col-md-6">PlaceHOlderText</div>
-      </div>
-
-      <div class="row">
-        <div class="projects col-md-6">PlaceHOlderText</div>
-        <div class="projects col-md-6">PlaceHOlderText</div>
+        <div class="ref"><a>Github</a></div>
+        <div class="ref"><a>Open</a></div>
       </div>
     </div>
 
 
+    <div class="projects">
+      <img src="https://image.ibb.co/mHqXg5/Screen_Shot_2017_09_21_at_3_16_49_PM.png"
+      alt="Screen_Shot_2017_09_21_at_3_16_49_PM" border="0">
+      <div id="overlay" class="text-center">
+        <div class="project-name">Todo API</div>
+        <div class="project-description">
+          <h3>
+            Frameworks and libraries used
+          </h3>
+          <p>
+            NodeJS, Express, Mongoose, Crypto-JS, Jsonwebtokens, Lodash
+          </p>
+        </div>
+        <div class="ref"><a>Github</a></div>
+        <div class="ref"><a>Open</a></div>
+      </div>
+    </div>
+
+    <div class="projects">
+      <img src="https://image.ibb.co/dBHTm5/Screen_Shot_2017_09_19_at_7_43_09_PM.png"
+      alt="Screen Shot 2017 09 19 at 7 43 09 PM" border="0" />
+      <div id="overlay" class="text-center">
+        <div class="project-name">ChatRoom</div>
+        <div class="project-description">
+          <h3>
+            Frameworks and libraries used
+          </h3>
+          <p>
+            NodeJS, Express, SocketIO, Moment, Mocha, Expect
+          </p>
+        </div>
+        <div class="ref"><a>Github</a></div>
+        <div class="ref"><a>Open</a></div>
+      </div>
+    </div>
+
+
+    <div class="projects">
+      <img src="https://image.ibb.co/mHqXg5/Screen_Shot_2017_09_21_at_3_16_49_PM.png"
+      alt="Screen_Shot_2017_09_21_at_3_16_49_PM" border="0">
+      <div id="overlay" class="text-center">
+        <div class="project-name">Todo API</div>
+        <div class="project-description">
+          <h3>
+            Frameworks and libraries
+          </h3>
+          <p>
+            NodeJS, Express, Mongoose, Crypto-JS, Jsonwebtokens, Lodash
+          </p>
+        </div>
+        <div class="ref"><a>Github</a></div>
+        <div class="ref"><a>Open</a></div>
+      </div>
+    </div>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- <script>
+      $( document ).ready(function() {
+        $( ".projects" ).hover(
+          function() {
+            console.log($(this));
+            $( this ).find('#overlay').css("display", "block");
+          }, function() {
+            console.log('out');
+            $( this ).find('#overlay').css("display", "none");
+          }
+        );
+      });
+    </script> -->
   </body>
 </html>

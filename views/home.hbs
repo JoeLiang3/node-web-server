@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link href="https://fonts.googleapis.com/css?family=Abel|Cabin|Questrial" rel="stylesheet">
     <meta charset="utf-8">
     <title>Home</title>
     {{> imports}}
@@ -9,13 +10,18 @@
     {{> header}}
     <div class="picture">
       <img src="https://image.ibb.co/bXPEb5/santa_Cruz.png" alt="santa_Cruz" border="0">
+      <div class="navigator text-center">
+        <!-- Scroll Down icon by Icons8 -->
+        <a href="#about"><img class="scroll-down" src="http://www.gravityshows.com/images/abajo.png"></a>
+      </div>
     </div>
-    <div class="about text-center">
 
-      <div class = "my-name">About Me</div>
+    <div class="about text-center" id="about">
+
+      <div id="about-me">About Me</div>
 
       <div ><img id="selfie" src="https://image.ibb.co/fo2VDk/Image.jpg"/></div>
-      <div class="description"><p>Hello! My name is Joe Liang. I am currently a Junior attending University
+      <div class="description" id="intro"><p>Hello! My name is Joe Liang. I am currently a Junior attending University
       of California Santa Cruz and pursuing a degree in computer science. I have experience in building web applications
     through hackathons and personal projects. My goal is to become a full stack developer.</p></div>
 
@@ -48,6 +54,6 @@
 
 
     </div>
-
+  <a href="https://icons8.com">Icon pack by Icons8</a>
   </body>
 </html>
